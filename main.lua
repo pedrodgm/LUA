@@ -30,4 +30,20 @@ print("Meu nome é " .. nome .. ", nasci em " .. ano_nascimento .. " e amo " .. 
 -- type function
 print(type(a)) print(type(b)) print(type(c)) print(type(d))
 
--- changed file to update git
+-- factorial function
+function fact (n)
+    if n == 0 then
+        return 1
+    else
+        return n * fact(n-1)
+    end
+end
+print("entre com o número: ")
+a = io.read("*number") -- lê um número
+print(fact(a))
+
+-- tonumber function
+local ano = "1999"
+print(type(ano))
+print(type(tonumber(ano)))
+
