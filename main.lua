@@ -56,3 +56,6 @@ print(10 % 3)
 -- math library
 print(math.pi)
 print(math.random(1, 60))
+
+-- math.max
+print(math.max(50, 10, 28, 31, 74, 17))
