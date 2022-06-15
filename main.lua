@@ -50,4 +50,9 @@ print(type(tonumber(ano)))
 -- math in lua
 print(2 + 2)
 print(2 ^ 2)
+print(10 / 2)
+print(10 % 3)
 
+-- math library
+print(math.pi)
+print(math.random(1, 60))
