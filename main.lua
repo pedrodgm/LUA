@@ -39,11 +39,15 @@ function fact (n)
     end
 end
 print("entre com o número: ")
-a = io.read("*number") -- lê um número
-print(fact(a))
+--a = io.read("*number") -- lê um número
+--print(fact(a))
 
 -- tonumber function
 local ano = "1999"
 print(type(ano))
 print(type(tonumber(ano)))
+
+-- math in lua
+print(2 + 2)
+print(2 ^ 2)
 
