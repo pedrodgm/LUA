@@ -1,8 +1,8 @@
 -- prints text to the screen
-
 print("hello world" .. ",Pedro")
 
---[[
+-- mostrando como se comenta em múltiplas linhas em LUA:
+--[[ 
     Variables:
         -> nil:
         -> number: 1; 1.24; 0.1; 44
@@ -30,18 +30,6 @@ print("Meu nome é " .. nome .. ", nasci em " .. ano_nascimento .. " e amo " .. 
 -- type function
 print(type(a)) print(type(b)) print(type(c)) print(type(d))
 
--- factorial function
-function fact (n)
-    if n == 0 then
-        return 1
-    else
-        return n * fact(n-1)
-    end
-end
-print("entre com o número: ")
---a = io.read("*number") -- lê um número
---print(fact(a))
-
 -- tonumber function
 local ano = "1999"
 print(type(ano))
@@ -59,3 +47,11 @@ print(math.random(1, 60))
 
 -- math.max
 print(math.max(50, 10, 28, 31, 74, 17))
+
+-- math.floor
+print(math.floor(3.14159))
+print(math.floor(3.94159)) -- arredonda para baixo!
+
+-- math.ceil
+print(math.ceil(3.14159)) -- resultado será 4! "ceil" vem da palavra "ceiling", que signfica "teto"em inglês
+
